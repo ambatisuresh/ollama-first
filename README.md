@@ -44,7 +44,8 @@ The goal of this project was to move beyond cloud-based APIs (like OpenAI) and e
 ```text
 ollama-first/
 ├── .venv/               # Virtual environment
-├── start_ollama.py      # Main entry point for chat logic
-├── new_model_ollama.py  # Script for creating custom models
-├── requirements.txt     # Project dependencies
-└── README.md            # You are here!
+├── chat_ollama.py      # Main chat interface using the Ollama Python library
+├── new_model_ollama.py  # Script to create and customize models via Modelfile logic
+├── start_ollama.py     # Entry point for testing basic model interactions
+├── start_raw.py        # Experimental script using raw HTTP requests (API level)
+├── README.md           # Documentation and project overview
